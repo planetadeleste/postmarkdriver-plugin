@@ -9,7 +9,7 @@ First all, create an account on Postmark, it is required to be used on your plat
 ## Installation
 ### From composer:
 ```bash
-composer require planetadeleste/oc-postmarkdriver-plugin
+composer require planetadeleste/postmarkdriver-plugin
 ```
 
 ### From OctoberCMS marketplace

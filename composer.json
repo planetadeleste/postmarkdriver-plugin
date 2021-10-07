@@ -1,5 +1,5 @@
 {
-    "name":"planetadeleste/oc-postmarkdriver-plugin",
+    "name":"planetadeleste/postmarkdriver-plugin",
     "description":"A Postmark driver for OctoberCMS",
     "type": "october-plugin",
     "license":"MIT",
