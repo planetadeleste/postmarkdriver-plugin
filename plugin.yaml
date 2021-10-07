@@ -1,0 +1,8 @@
+plugin:
+    name: 'planetadeleste.postmarkdriver::lang.plugin.name'
+    description: 'planetadeleste.postmarkdriver::lang.plugin.description'
+    author: PlanetaDelEste
+    icon: icon-smile-o
+    homepage: ''
+navigation:
+permissions:

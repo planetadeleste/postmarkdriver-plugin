@@ -1,0 +1,29 @@
+{
+    "name":"planetadeleste/oc-postmarkdriver-plugin",
+    "description":"A Postmark driver for OctoberCMS",
+    "type": "october-plugin",
+    "license":"MIT",
+    "keywords": [
+        "october",
+        "octobercms",
+        "plugin",
+        "cms",
+        "driver",
+        "postmark"
+    ],
+    "authors": [
+        {
+            "name": "Alvaro Canepa",
+            "email": "bfpdevel@gmail.com",
+            "role": "creator"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PlanetaDelEste\\PostmarkDriver\\": ""
+        }
+    },
+    "require":{
+        "coconutcraig/laravel-postmark": "^2.11"
+    }
+}
