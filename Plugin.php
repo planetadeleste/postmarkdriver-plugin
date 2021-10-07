@@ -58,16 +58,4 @@ class Plugin extends PluginBase
             });
         });
     }
-
-//    public function register()
-//    {
-//        \Event::listen('mailer.register', function () {
-//            $settings = MailSetting::instance();
-//            if ($settings->send_mode === self::MODE_POSTMARK) {
-//                $config = \App::make('config');
-//                $config->set('services.sendgrid.api_key', $settings->postmark_secret);
-//            }
-//        });
-//
-//    }
 }
