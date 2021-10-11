@@ -1,2 +1,4 @@
-1.0.0:
+v1.0.0:
     - 'Init plugin'
+v1.0.1:
+    - 'Fix guzzle issue url malformed'

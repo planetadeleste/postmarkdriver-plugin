@@ -47,7 +47,7 @@ class Plugin extends PluginBase
         \App::extend('swift.transport', function (\Illuminate\Mail\TransportManager $manager) {
             return $manager->extend(self::MODE_POSTMARK, function () {
                 $settings = MailSetting::instance();
-                $client = new Client();
+                $client = new Client(config('postmark.guzzle'));
                 return new PostmarkTransport($client, $settings->postmark_secret);
             });
         });
